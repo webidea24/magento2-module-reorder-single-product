@@ -1,0 +1,21 @@
+{
+    "name": "webidea24/magento2-module-reorder-single-product",
+    "version": "1.0.0",
+    "description": "Magento 2 Module - Allows customers to reorder single products from order history",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*",
+        "magento/module-sales": "*"
+    },
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Webidea24\\ReorderSingleProduct\\": ""
+        }
+    }
+}
